@@ -1,0 +1,3 @@
+<h1>{{ question.question_text }}</h1>
+<p><a href="{% url 'question_edit' pk=question.pk %}">Edit</a></p>
+<p><a href="{% url 'question_delete' pk=question.pk %}">Delete</a></p>
